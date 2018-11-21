@@ -34,7 +34,7 @@ function getInputValues() {
   let ingredientsNodes = document.getElementsByName('ingredients')
   let ingredients = []
   for(let i = 0; i < ingredientsNodes.length; i++) {
-    if(ingredientsNodes[i].value != "") {
+    if(ingredientsNodes[i].value !== "") {
       ingredients.push(ingredientsNodes[i].value)
     }
   }
