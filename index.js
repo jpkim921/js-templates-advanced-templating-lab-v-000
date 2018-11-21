@@ -50,7 +50,7 @@ function displayEditForm() {
   let ingredientsNodes = document.getElementsByName('ingredients')
   let ingredients = []
   for(i = 0; i < ingredientsNodes.length; i++) {
-    if(ingredientsNodes[i].innerText != "") {
+    if(ingredientsNodes[i].innerText !== "") {
       ingredients.push(ingredientsNodes[i].innerText)
     }
   }
