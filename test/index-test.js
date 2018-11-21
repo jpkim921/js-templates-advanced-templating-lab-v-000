@@ -98,8 +98,7 @@ describe('Handlebars Templates Lab', function() {
     describe('displayEditForm', function() {
       it('renders the form template with values pre-filled', function() {
         // load the new form and fill it out
-        // init()
-        displayEditForm();
+        init() 
         var ingredients = document.getElementsByName("ingredients")
         var nameField = document.getElementById("name")
         var descriptionField = document.getElementById("description")
